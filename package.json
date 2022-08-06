@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd instgramapi && npm build",
-    "heroku-postbuild": "npm run  install-instgramapi && npm run build",
-    "start": "node index.js",
-    "instagramapi": "cd instagramapi && npm start"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
