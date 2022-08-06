@@ -19,7 +19,7 @@ mongoose.connect(
 );
 
 app.get('/', (req, res) => {
-  res.send('hello world');
+  res.send('instagram api server is live');
 });
 //middleware
 
