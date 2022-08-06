@@ -6,8 +6,7 @@ const morgan = require('morgan');
 const userRoute = require('./routes/users');
 const authRoute = require('./routes/auth');
 const postRoute = require('./routes/posts');
-const DB =
-  'mongodb+srv://nihalsangole:nihalgolunihal@cluster0.vbzrc3t.mongodb.net/instagram?retryWrites=true&w=majority';
+const DB = 'mongodb://localhost:27017/instagram';
 const port = process.env.port || 8080;
 
 mongoose.connect(
